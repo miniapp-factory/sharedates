@@ -1,0 +1,122 @@
+
+# 2025-11-28 08:24:01.207205
++Code the following app
++```
++You will rebuild the app from scratch with ZERO deployment errors.
++
++STRICT BUILD RULES:
++- No external libraries unless guaranteed supported by Mini App Factory.
++- No undefined imports, variables, functions, or hooks.
++- All state must be initialized with safe defaults.
++- All schemas, models, and data structures must be explicitly defined.
++- No backend code that requires custom servers or systemctl.
++- Use only simple CRUD data operations.
++- Use only built-in components for UI.
++- Avoid complex calendar libraries. Build a simple grid-based calendar instead.
++- All actions must have try/catch and return safe values.
++- No deep nested objects.
++- Keep code minimal, modular, and deploy-safe.
++
++APP REQUIREMENTS:
++Build a “Shared Availability Calendar” app:
++
++1. Users can mark each day as:
++   - Free
++   - Busy
++   - Tentative
++
++2. Users can create a shared calendar group and invite others by shareable link.
++
++3. All members’ availability is merged:
++   - Green = All free
++   - Yellow = Partially free
++   - Red = Conflict
++
++4. The app shows:
++   - Calendar view
++   - Group availability summary
++   - Next available days (sorted)
++
++5. Notifications:
++   - When a user updates availability
++   - When everyone is free on an upcoming day
++
++6. Data Models (simple JSON):
++   User: { id, name }
++   Group: { id, name, members: [userId] }
++   Availability: { userId, date, status }
++   GroupAvailability: { groupId, date, statuses: [status] }
++
++7. Absolutely NO unsupported APIs or server-level code.
++
++DELIVERABLE:
++Generate a FULLY DEPLOYABLE Mini App Factory app with:
++- correct imports
++- correct handlers
++- no undefined functions
++- simple lightweight calendar
++- no deployment errors
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-28 08:24:01.208138
++Code the following app
++```
++You will rebuild the app from scratch with ZERO deployment errors.
++
++STRICT BUILD RULES:
++- No external libraries unless guaranteed supported by Mini App Factory.
++- No undefined imports, variables, functions, or hooks.
++- All state must be initialized with safe defaults.
++- All schemas, models, and data structures must be explicitly defined.
++- No backend code that requires custom servers or systemctl.
++- Use only simple CRUD data operations.
++- Use only built-in components for UI.
++- Avoid complex calendar libraries. Build a simple grid-based calendar instead.
++- All actions must have try/catch and return safe values.
++- No deep nested objects.
++- Keep code minimal, modular, and deploy-safe.
++
++APP REQUIREMENTS:
++Build a “Shared Availability Calendar” app:
++
++1. Users can mark each day as:
++   - Free
++   - Busy
++   - Tentative
++
++2. Users can create a shared calendar group and invite others by shareable link.
++
++3. All members’ availability is merged:
++   - Green = All free
++   - Yellow = Partially free
++   - Red = Conflict
++
++4. The app shows:
++   - Calendar view
++   - Group availability summary
++   - Next available days (sorted)
++
++5. Notifications:
++   - When a user updates availability
++   - When everyone is free on an upcoming day
++
++6. Data Models (simple JSON):
++   User: { id, name }
++   Group: { id, name, members: [userId] }
++   Availability: { userId, date, status }
++   GroupAvailability: { groupId, date, statuses: [status] }
++
++7. Absolutely NO unsupported APIs or server-level code.
++
++DELIVERABLE:
++Generate a FULLY DEPLOYABLE Mini App Factory app with:
++- correct imports
++- correct handlers
++- no undefined functions
++- simple lightweight calendar
++- no deployment errors
++```
++
++Generate an app logo and update the app metadata title and description.
